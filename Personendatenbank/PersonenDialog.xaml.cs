@@ -13,25 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFKurs
+namespace Personendatenbank
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PersonenDialog : Window
     {
-        public MainWindow()
+        public PersonenDialog()
         {
             InitializeComponent();
-
-        }
-
-        private void Btn_KlickMich_Click(object sender, RoutedEventArgs e)
-        {
-            Btn_KlickMich.Background = new SolidColorBrush(Colors.Blue);
-
-            (sender as Button).Content = "Button wurde geklickt";
-
         }
     }
 }
