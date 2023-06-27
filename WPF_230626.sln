@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M02_Controls", "Controls\M02_Controls.csproj", "{9B5A1E12-45AC-43D0-8E0B-8FC72FEC03A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M02_Controls", "Controls\M02_Controls.csproj", "{9B5A1E12-45AC-43D0-8E0B-8FC72FEC03A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{145DF41E-BB7C-44BF-AB69-100961C60819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{145DF41E-BB7C-44BF-AB69-100961C60819}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M01_Grundlagen", "Grundlagen\M01_Grundlagen.csproj", "{0FFCADCA-483A-4758-AD87-C1ED106D82E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03_Layout", "Layout\M03_Layout.csproj", "{A75779D0-5A57-4EBD-BE86-74EB016AD669}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03_Layout", "Layout\M03_Layout.csproj", "{A75779D0-5A57-4EBD-BE86-74EB016AD669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{12E418C7-94D6-46AD-9F42-A20B6B274CEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{12E418C7-94D6-46AD-9F42-A20B6B274CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyBinding", "PropertyBinding\PropertyBinding.csproj", "{E440BFAD-0161-4AB5-9129-E1D8A208123E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{12E418C7-94D6-46AD-9F42-A20B6B274CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12E418C7-94D6-46AD-9F42-A20B6B274CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12E418C7-94D6-46AD-9F42-A20B6B274CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E440BFAD-0161-4AB5-9129-E1D8A208123E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E440BFAD-0161-4AB5-9129-E1D8A208123E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E440BFAD-0161-4AB5-9129-E1D8A208123E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E440BFAD-0161-4AB5-9129-E1D8A208123E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
