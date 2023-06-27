@@ -61,11 +61,11 @@ namespace Resources_Styles {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to KLICK MICH AUCH.
+        ///   Looks up a localized string similar to Klick mich auch!!.
         /// </summary>
-        public static string Btn_Text_String {
+        public static string meinButtonString {
             get {
-                return ResourceManager.GetString("Btn_Text_String", resourceCulture);
+                return ResourceManager.GetString("meinButtonString", resourceCulture);
             }
         }
     }

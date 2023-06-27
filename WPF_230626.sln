@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03_Layout", "Layout\M03_La
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{12E418C7-94D6-46AD-9F42-A20B6B274CEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05_PropertyBinding", "PropertyBinding\M05_PropertyBinding.csproj", "{E440BFAD-0161-4AB5-9129-E1D8A208123E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M05_PropertyBinding", "PropertyBinding\M05_PropertyBinding.csproj", "{E440BFAD-0161-4AB5-9129-E1D8A208123E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{EB03533F-80CB-40C8-92EB-BB0C525DC36D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{EB03533F-80CB-40C8-92EB-BB0C525DC36D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06_DataBinding", "DataBinding\M06_DataBinding.csproj", "{822EB916-7204-4D90-B3C6-1E8E7DD93D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M06_DataBinding", "DataBinding\M06_DataBinding.csproj", "{822EB916-7204-4D90-B3C6-1E8E7DD93D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources_Styles", "Resources_Styles\Resources_Styles.csproj", "{6412CBFA-D802-4676-8981-7409255A6BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M07_Resources_Styles", "Resources_Styles\M07_Resources_Styles.csproj", "{6412CBFA-D802-4676-8981-7409255A6BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates", "Templates\Templates.csproj", "{FF36200A-EC5C-493F-AD22-E43523C7CAFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{6412CBFA-D802-4676-8981-7409255A6BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6412CBFA-D802-4676-8981-7409255A6BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6412CBFA-D802-4676-8981-7409255A6BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF36200A-EC5C-493F-AD22-E43523C7CAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF36200A-EC5C-493F-AD22-E43523C7CAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF36200A-EC5C-493F-AD22-E43523C7CAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF36200A-EC5C-493F-AD22-E43523C7CAFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
