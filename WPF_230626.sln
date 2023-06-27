@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M06_DataBinding", "DataBind
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M07_Resources_Styles", "Resources_Styles\M07_Resources_Styles.csproj", "{6412CBFA-D802-4676-8981-7409255A6BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates", "Templates\Templates.csproj", "{FF36200A-EC5C-493F-AD22-E43523C7CAFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M08_Templates", "Templates\M08_Templates.csproj", "{FF36200A-EC5C-493F-AD22-E43523C7CAFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
