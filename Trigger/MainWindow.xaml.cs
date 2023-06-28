@@ -45,9 +45,23 @@ namespace Trigger
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(BoolVal)));
         }
 
-        private void ColorPicker_PickedColorChanged(object sender, RoutedPropertyChangedEventArgs<SolidColorBrush> e)
+        //EventHandler des UserControls (vgl. M11_UserControls)
+        private void ColorPicker_Tap(object sender, RoutedEventArgs e)
         {
-            this.Title = (sender as ColorPicker).PickedColor.ToString();
+            MessageBox.Show((sender as ColorPicker).PickedColor.ToString());
+        }
+
+        private void ColorPicker_PickedColorChanged(object sender, RoutedEventArgs e)
+        {
+            if ((sender as ColorPicker).PickedColor.ToString().Equals("#FF000000"))
+                MessageBox.Show("Alles ist schwarz");
+        }
+
+        //EventHandler des Buttons
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //Zugriff auf AttachedProperty
+            MessageBox.Show(ColorPicker.GetCount(sender as Button).ToString());
         }
     }
 }

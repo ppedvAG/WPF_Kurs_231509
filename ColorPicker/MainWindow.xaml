@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ColorPicker"
         mc:Ignorable="d"
-        Title="ColorPicker" Height="267" Width="304"
-        x:Name="Uc_ColorPicker">
+        Title="ColorPicker" Height="267" Width="304">
 
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
