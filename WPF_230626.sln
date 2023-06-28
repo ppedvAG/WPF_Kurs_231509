@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M07_Resources_Styles", "Res
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M08_Templates", "Templates\M08_Templates.csproj", "{FF36200A-EC5C-493F-AD22-E43523C7CAFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation", "Validation\Validation.csproj", "{E6432DBC-6302-4802-8F61-89AED89D0C81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09_Validation", "Validation\M09_Validation.csproj", "{E6432DBC-6302-4802-8F61-89AED89D0C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
