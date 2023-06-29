@@ -23,11 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M07_Resources_Styles", "Res
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M08_Templates", "Templates\M08_Templates.csproj", "{FF36200A-EC5C-493F-AD22-E43523C7CAFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09_Validation", "Validation\M09_Validation.csproj", "{E6432DBC-6302-4802-8F61-89AED89D0C81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M09_Validation", "Validation\M09_Validation.csproj", "{E6432DBC-6302-4802-8F61-89AED89D0C81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M10_Trigger", "Trigger\M10_Trigger.csproj", "{D09FA2C1-52C7-4633-9403-7009CA9B2030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M10_Trigger", "Trigger\M10_Trigger.csproj", "{D09FA2C1-52C7-4633-9403-7009CA9B2030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M11_UserControls", "UserControls\M11_UserControls.csproj", "{03DC1A7D-DA66-4147-838D-4356C6448A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M11_UserControls", "UserControls\M11_UserControls.csproj", "{03DC1A7D-DA66-4147-838D-4356C6448A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commands", "Commands\Commands.csproj", "{348B3A32-83DE-4704-A25D-996686E89FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{DB3F79D2-BA9A-49E8-B725-C3270CAEA206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{03DC1A7D-DA66-4147-838D-4356C6448A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DC1A7D-DA66-4147-838D-4356C6448A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03DC1A7D-DA66-4147-838D-4356C6448A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348B3A32-83DE-4704-A25D-996686E89FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348B3A32-83DE-4704-A25D-996686E89FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348B3A32-83DE-4704-A25D-996686E89FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348B3A32-83DE-4704-A25D-996686E89FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3F79D2-BA9A-49E8-B725-C3270CAEA206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3F79D2-BA9A-49E8-B725-C3270CAEA206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3F79D2-BA9A-49E8-B725-C3270CAEA206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3F79D2-BA9A-49E8-B725-C3270CAEA206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
